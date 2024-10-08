@@ -25,7 +25,7 @@ function App() {
             whose nickname is
             <span className='tc_green'> {id}</span>, is {age} years old.
           </h2>
-        }) : <h2>Users Not Found</h2>
+        }) : <h2>Users Not Found 404</h2>
       }
     </div >
   );
