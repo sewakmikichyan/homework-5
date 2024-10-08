@@ -1,0 +1,24 @@
+{
+  "name": "express-react",
+  "version": "1.0.0",
+  "description": "express ja + react js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --require dotenv/config index.js"
+  },
+  "keywords": [
+    "express-js",
+    "react-js"
+  ],
+  "author": "Sevak Mikichyan",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  }
+}
