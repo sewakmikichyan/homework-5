@@ -23,7 +23,7 @@ function App() {
           return <h2 key={id}>
             <span className='tc_red'>{fullName}</span>,
             whose nickname is
-            <span className='tc_green'>{id}</span>, is {age} years old.
+            <span className='tc_green'> {id}</span>, is {age} years old.
           </h2>
         }) : <h2>Users Not Found</h2>
       }
